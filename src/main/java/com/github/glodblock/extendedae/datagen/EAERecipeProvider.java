@@ -301,6 +301,19 @@ public class EAERecipeProvider extends FabricRecipeProvider {
                 .unlockedBy(C, has(EAEItemAndBlock.TAG_EXPORT_BUS))
                 .save(c, EAE.id("tag_export_bus"));
 
+        // NBT Export Bus
+        ShapedRecipeBuilder
+                .shaped(RecipeCategory.MISC, EAEItemAndBlock.NBT_EXPORT_BUS)
+                .pattern(" L ")
+                .pattern("RBR")
+                .pattern(" K ")
+                .define('L', AEItems.LOGIC_PROCESSOR)
+                .define('R', ConventionTags.REDSTONE)
+                .define('B', AEParts.EXPORT_BUS)
+                .define('K', Items.NAME_TAG)
+                .unlockedBy(C, has(EAEItemAndBlock.NBT_EXPORT_BUS))
+                .save(c, EAE.id("nbt_export_bus"));
+
         // Threshold Level Emitter
         ShapedRecipeBuilder
                 .shaped(RecipeCategory.MISC, EAEItemAndBlock.THRESHOLD_LEVEL_EMITTER)

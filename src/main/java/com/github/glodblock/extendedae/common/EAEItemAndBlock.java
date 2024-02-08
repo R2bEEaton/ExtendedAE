@@ -29,6 +29,7 @@ import com.github.glodblock.extendedae.common.parts.PartExPatternProvider;
 import com.github.glodblock.extendedae.common.parts.PartModExportBus;
 import com.github.glodblock.extendedae.common.parts.PartModStorageBus;
 import com.github.glodblock.extendedae.common.parts.PartTagExportBus;
+import com.github.glodblock.extendedae.common.parts.PartNbtExportBus;
 import com.github.glodblock.extendedae.common.parts.PartTagStorageBus;
 import com.github.glodblock.extendedae.common.parts.PartThresholdLevelEmitter;
 import com.github.glodblock.extendedae.common.tileentities.TileExCharger;
@@ -68,6 +69,7 @@ public class EAEItemAndBlock {
     public static BlockExCharger EX_CHARGER;
     public static PartItem<PartTagStorageBus> TAG_STORAGE_BUS;
     public static PartItem<PartTagExportBus> TAG_EXPORT_BUS;
+    public static PartItem<PartNbtExportBus> NBT_EXPORT_BUS;
     public static PartItem<PartThresholdLevelEmitter> THRESHOLD_LEVEL_EMITTER;
     public static PartItem<PartModStorageBus> MOD_STORAGE_BUS;
     public static PartItem<PartModExportBus> MOD_EXPORT_BUS;
@@ -100,6 +102,7 @@ public class EAEItemAndBlock {
         EX_CHARGER = new BlockExCharger();
         TAG_STORAGE_BUS = new PartItem<>(new Item.Properties(), PartTagStorageBus.class, PartTagStorageBus::new);
         TAG_EXPORT_BUS = new PartItem<>(new Item.Properties(), PartTagExportBus.class, PartTagExportBus::new);
+        NBT_EXPORT_BUS = new PartItem<>(new Item.Properties(), PartNbtExportBus.class, PartNbtExportBus::new);
         THRESHOLD_LEVEL_EMITTER = new PartItem<>(new Item.Properties(), PartThresholdLevelEmitter.class, PartThresholdLevelEmitter::new);
         MOD_STORAGE_BUS = new PartItem<>(new Item.Properties(), PartModStorageBus.class, PartModStorageBus::new);
         MOD_EXPORT_BUS = new PartItem<>(new Item.Properties(), PartModExportBus.class, PartModExportBus::new);
@@ -131,6 +134,7 @@ public class EAEItemAndBlock {
         regHandler.item("pattern_modifier", PATTERN_MODIFIER);
         regHandler.item("tag_storage_bus", TAG_STORAGE_BUS);
         regHandler.item("tag_export_bus", TAG_EXPORT_BUS);
+        regHandler.item("nbt_export_bus", NBT_EXPORT_BUS);
         regHandler.item("threshold_level_emitter", THRESHOLD_LEVEL_EMITTER);
         regHandler.item("mod_storage_bus", MOD_STORAGE_BUS);
         regHandler.item("mod_export_bus", MOD_EXPORT_BUS);
