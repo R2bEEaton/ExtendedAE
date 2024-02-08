@@ -305,10 +305,10 @@ public class EAERecipeProvider extends FabricRecipeProvider {
         ShapedRecipeBuilder
                 .shaped(RecipeCategory.MISC, EAEItemAndBlock.NBT_EXPORT_BUS)
                 .pattern(" L ")
-                .pattern("RBR")
+                .pattern("DBD")
                 .pattern(" K ")
                 .define('L', AEItems.LOGIC_PROCESSOR)
-                .define('R', ConventionTags.REDSTONE)
+                .define('D', ConventionTags.DIAMOND)
                 .define('B', AEParts.EXPORT_BUS)
                 .define('K', Items.NAME_TAG)
                 .unlockedBy(C, has(EAEItemAndBlock.NBT_EXPORT_BUS))

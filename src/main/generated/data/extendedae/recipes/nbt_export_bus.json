@@ -5,19 +5,19 @@
     "B": {
       "item": "ae2:export_bus"
     },
+    "D": {
+      "tag": "c:diamonds"
+    },
     "K": {
       "item": "minecraft:name_tag"
     },
     "L": {
       "item": "ae2:logic_processor"
-    },
-    "R": {
-      "tag": "c:redstone_dusts"
     }
   },
   "pattern": [
     " L ",
-    "RBR",
+    "DBD",
     " K "
   ],
   "result": {
