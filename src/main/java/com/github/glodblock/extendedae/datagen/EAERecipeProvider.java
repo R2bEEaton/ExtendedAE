@@ -288,6 +288,19 @@ public class EAERecipeProvider extends FabricRecipeProvider {
                 .unlockedBy(C, has(EAEItemAndBlock.TAG_STORAGE_BUS))
                 .save(c, EAE.id("tag_storage_bus"));
 
+        // NBT Storage Bus
+        ShapedRecipeBuilder
+                .shaped(RecipeCategory.MISC, EAEItemAndBlock.NBT_STORAGE_BUS)
+                .pattern(" L ")
+                .pattern("DBD")
+                .pattern(" K ")
+                .define('L', AEItems.LOGIC_PROCESSOR)
+                .define('D', ConventionTags.DIAMOND)
+                .define('B', AEParts.STORAGE_BUS)
+                .define('K', Items.BOOK)
+                .unlockedBy(C, has(EAEItemAndBlock.NBT_STORAGE_BUS))
+                .save(c, EAE.id("nbt_storage_bus"));
+
         // Tag Export Bus
         ShapedRecipeBuilder
                 .shaped(RecipeCategory.MISC, EAEItemAndBlock.TAG_EXPORT_BUS)

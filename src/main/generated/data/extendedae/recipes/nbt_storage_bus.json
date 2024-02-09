@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "ae2:storage_bus"
+    },
+    "D": {
+      "tag": "c:diamonds"
+    },
+    "K": {
+      "item": "minecraft:book"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    " L ",
+    "DBD",
+    " K "
+  ],
+  "result": {
+    "item": "extendedae:nbt_storage_bus"
+  },
+  "show_notification": true
+}

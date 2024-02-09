@@ -39,6 +39,8 @@ public abstract class MixinInitUpgrades {
         Upgrades.add(AEItems.SPEED_CARD, EAEItemAndBlock.EX_INSCRIBER, 4, "gui.expatternprovider.ex_inscriber");
         Upgrades.add(AEItems.INVERTER_CARD, EAEItemAndBlock.TAG_STORAGE_BUS, 1, "item.expatternprovider.tag_storage_bus");
         Upgrades.add(AEItems.VOID_CARD, EAEItemAndBlock.TAG_STORAGE_BUS, 1, "item.expatternprovider.tag_storage_bus");
+        Upgrades.add(AEItems.INVERTER_CARD, EAEItemAndBlock.NBT_STORAGE_BUS, 1, "item.expatternprovider.nbt_storage_bus");
+        Upgrades.add(AEItems.VOID_CARD, EAEItemAndBlock.NBT_STORAGE_BUS, 1, "item.expatternprovider.nbt_storage_bus");
         Upgrades.add(AEItems.REDSTONE_CARD, EAEItemAndBlock.TAG_EXPORT_BUS, 1, "item.expatternprovider.tag_export_bus");
         Upgrades.add(AEItems.REDSTONE_CARD, EAEItemAndBlock.NBT_EXPORT_BUS, 1, "item.expatternprovider.nbt_export_bus");
         Upgrades.add(AEItems.SPEED_CARD, EAEItemAndBlock.TAG_EXPORT_BUS, 4, "item.expatternprovider.tag_export_bus");

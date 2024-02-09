@@ -1,0 +1,34 @@
+{
+  "$schema": "schema.json",
+  "includes": ["common/common.json", "common/player_inventory.json"],
+  "background": {
+    "texture": "guis/tag_storage_bus.png",
+    "srcRect": [0, 0, 176, 172]
+  },
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.extendedae.nbt_storage_bus"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    },
+    "tooltip_01": {
+      "text": {
+        "translate": "gui.extendedae.nbt_storage_bus.desc.01"
+      },
+      "position": {
+        "left": 8,
+        "top": 42
+      }
+    }
+  },
+  "widgets": {
+    "openPriority": {
+      "left": 154,
+      "top": 0
+    }
+  }
+}
