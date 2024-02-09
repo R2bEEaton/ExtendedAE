@@ -26,7 +26,9 @@ import com.github.glodblock.extendedae.common.parts.PartExPatternProvider;
 import com.github.glodblock.extendedae.common.parts.PartModExportBus;
 import com.github.glodblock.extendedae.common.parts.PartModStorageBus;
 import com.github.glodblock.extendedae.common.parts.PartTagExportBus;
+import com.github.glodblock.extendedae.common.parts.PartNbtExportBus;
 import com.github.glodblock.extendedae.common.parts.PartTagStorageBus;
+import com.github.glodblock.extendedae.common.parts.PartNbtStorageBus;
 import com.github.glodblock.extendedae.common.parts.PartThresholdLevelEmitter;
 import com.github.glodblock.extendedae.common.tileentities.TileExCharger;
 import com.github.glodblock.extendedae.common.tileentities.TileExInscriber;
@@ -49,7 +51,9 @@ import com.github.glodblock.extendedae.container.ContainerModStorageBus;
 import com.github.glodblock.extendedae.container.ContainerPatternModifier;
 import com.github.glodblock.extendedae.container.ContainerRenamer;
 import com.github.glodblock.extendedae.container.ContainerTagExportBus;
+import com.github.glodblock.extendedae.container.ContainerNbtExportBus;
 import com.github.glodblock.extendedae.container.ContainerTagStorageBus;
+import com.github.glodblock.extendedae.container.ContainerNbtStorageBus;
 import com.github.glodblock.extendedae.container.ContainerThresholdLevelEmitter;
 import com.github.glodblock.extendedae.container.ContainerWirelessConnector;
 import com.github.glodblock.extendedae.container.pattern.ContainerCraftingPattern;
@@ -151,7 +155,9 @@ public class RegistryHandler {
                 ContainerExMolecularAssembler.TYPE,
                 ContainerExInscriber.TYPE,
                 ContainerTagStorageBus.TYPE,
+                ContainerNbtStorageBus.TYPE,
                 ContainerTagExportBus.TYPE,
+                ContainerNbtExportBus.TYPE,
                 ContainerThresholdLevelEmitter.TYPE,
                 ContainerRenamer.TYPE,
                 ContainerModStorageBus.TYPE,
@@ -235,7 +241,9 @@ public class RegistryHandler {
         PartModels.registerModels(PartExImportBus.MODELS);
         PartModels.registerModels(PartExPatternAccessTerminal.MODELS);
         PartModels.registerModels(PartTagStorageBus.MODEL_BASE);
+        PartModels.registerModels(PartNbtStorageBus.MODEL_BASE);
         PartModels.registerModels(PartTagExportBus.MODEL_BASE);
+        PartModels.registerModels(PartNbtExportBus.MODEL_BASE);
         PartModels.registerModels(PartThresholdLevelEmitter.MODELS);
         PartModels.registerModels(PartModStorageBus.MODEL_BASE);
         PartModels.registerModels(PartModExportBus.MODEL_BASE);

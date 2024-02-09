@@ -39,8 +39,12 @@ public abstract class MixinInitUpgrades {
         Upgrades.add(AEItems.SPEED_CARD, EAEItemAndBlock.EX_INSCRIBER, 4, "gui.expatternprovider.ex_inscriber");
         Upgrades.add(AEItems.INVERTER_CARD, EAEItemAndBlock.TAG_STORAGE_BUS, 1, "item.expatternprovider.tag_storage_bus");
         Upgrades.add(AEItems.VOID_CARD, EAEItemAndBlock.TAG_STORAGE_BUS, 1, "item.expatternprovider.tag_storage_bus");
+        Upgrades.add(AEItems.INVERTER_CARD, EAEItemAndBlock.NBT_STORAGE_BUS, 1, "item.expatternprovider.nbt_storage_bus");
+        Upgrades.add(AEItems.VOID_CARD, EAEItemAndBlock.NBT_STORAGE_BUS, 1, "item.expatternprovider.nbt_storage_bus");
         Upgrades.add(AEItems.REDSTONE_CARD, EAEItemAndBlock.TAG_EXPORT_BUS, 1, "item.expatternprovider.tag_export_bus");
+        Upgrades.add(AEItems.REDSTONE_CARD, EAEItemAndBlock.NBT_EXPORT_BUS, 1, "item.expatternprovider.nbt_export_bus");
         Upgrades.add(AEItems.SPEED_CARD, EAEItemAndBlock.TAG_EXPORT_BUS, 4, "item.expatternprovider.tag_export_bus");
+        Upgrades.add(AEItems.SPEED_CARD, EAEItemAndBlock.NBT_EXPORT_BUS, 4, "item.expatternprovider.nbt_export_bus");
         Upgrades.add(AEItems.FUZZY_CARD, EAEItemAndBlock.THRESHOLD_LEVEL_EMITTER, 1, "item.expatternprovider.threshold_level_emitter");
         Upgrades.add(AEItems.INVERTER_CARD, EAEItemAndBlock.MOD_STORAGE_BUS, 1, "item.expatternprovider.mod_storage_bus");
         Upgrades.add(AEItems.VOID_CARD, EAEItemAndBlock.MOD_STORAGE_BUS, 1, "item.expatternprovider.mod_storage_bus");

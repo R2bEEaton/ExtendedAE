@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "ae2:export_bus"
+    },
+    "D": {
+      "tag": "c:diamonds"
+    },
+    "K": {
+      "item": "minecraft:name_tag"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    }
+  },
+  "pattern": [
+    " L ",
+    "DBD",
+    " K "
+  ],
+  "result": {
+    "item": "extendedae:nbt_export_bus"
+  },
+  "show_notification": true
+}
